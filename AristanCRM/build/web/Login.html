@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CRM Login</title>
+    <style>
+    	#login{
+    		background-color: skyblue;
+    		/*background: rgba(0, 0, 0, 0.5);*/
+    		color: white;
+    		padding: 20px;
+    		width: 250px;
+    		text-align: center;
+    		font-size: 22px;
+
+    		margin-left:70% ;
+    		margin-top: 10%;
+    		border-radius: 10px;
+
+    		animation-name: abc;
+    		animation-duration: 3s;
+    		/*box-shadow: 2px 5px 15px 5px gold;*/
+    		/*box-shadow: 2px 5px 15px 5px deeppink;*/
+    		box-shadow: 2px 5px 15px 5px whitesmoke;
+    		/*box-shadow: 2px 5px 15px 5px pink;*/
+    	}
+    	
+    	button{
+    		  background-color: gold;
+    		  width: 100%;
+    		  border: none;
+    		  padding: 5px;
+    		  font-size: 18px;
+    		 border-radius: 3px;
+
+    	}
+    	.inputclass{
+    		 padding: 7px;
+    		 width: 94%;
+    		 border-radius: 3px;
+    		 border: none;
+    	}
+    	h3{
+    		color: black;
+    	}
+    	body{
+    		  background-image: url("laptop.jpg");
+    		  background-size: cover;
+    	}
+    </style>
+</head>
+<body>
+
+	  <div id="login">
+	 <form action="LoginCheck.jsp" method="post">	
+	  <table cellpadding="5" align="center" width="100%">
+	  	 	<tr>
+	  	 		<th>
+	  	 			<h3>Aristan CRM</h3>
+	  	 		</th>
+	  	 	</tr>
+
+	  	    <tr>
+	  	     <th>
+	  	     	<input type="text" name="uname" placeholder="Username" class="inputclass">
+	  	     </th>
+	  	    </tr>
+
+	  	    <tr>
+	  	     <th>
+	  	     	<input type="password" name="pass" placeholder="Password" class="inputclass">
+	  	     </th>
+	  	    </tr>
+
+	  	    <tr>
+	  	    	 <th>
+	  	    	 	<button type="submit">Login</button>
+	  	    	 </th>
+	  	    </tr>
+
+	  	    <tr>
+	  	    	 <th>
+	  	    	 	<button type="reset">Reset</button>
+	  	    	 </th>
+	  	    </tr>
+	  	 </table>
+	  	</form>    
+	  </div>
+
+</body>
+</html>
